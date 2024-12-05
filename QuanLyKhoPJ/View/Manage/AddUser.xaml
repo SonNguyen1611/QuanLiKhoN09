@@ -1,0 +1,158 @@
+﻿<Window x:Class="QuanLyKhoPJ.View.Manage.AddUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuanLyKhoPJ.View.Manage"
+        mc:Ignorable="d"
+        DataContext="{StaticResource AdminManageVM}"
+        Icon="pack://application:,,,/Icon/forest.png"
+        Title="Fstock" FontFamily="Times New Roman" Height="450" Width="700">
+    <Grid Margin="25">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <!-- Define two columns with specific width ratios -->
+        <Grid Grid.Row="0">
+            <TextBlock Text="Thêm Tài Khoản" FontSize="24" HorizontalAlignment="Center" FontWeight="Bold" Margin="0,0,0,20" Grid.ColumnSpan="2" />
+
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Margin="20">
+                <TextBox
+                    VerticalAlignment="Top"
+                    materialDesign:HintAssist.Hint="Họ và Tên"
+                    Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                    Text="{Binding user.DisplayName}"
+                />
+                <TextBox
+                    VerticalAlignment="Top"
+                    materialDesign:HintAssist.Hint="Email"
+                    Text="{Binding user.Email}"
+                    Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="0,53,0,0"/>
+                <TextBox
+                     VerticalAlignment="Top"
+                     materialDesign:HintAssist.Hint="Số Điện Thoại"
+                    Text="{Binding user.PhoneNumber}"
+                    Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="0,113,0,0"/>
+                <TextBox
+                    VerticalAlignment="Top"
+                    materialDesign:HintAssist.Hint="Tài Khoản"
+                    Text="{Binding user.UserName}"
+                    Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="0,175,0,0"/>
+                <TextBox
+                     VerticalAlignment="Top"
+                     materialDesign:HintAssist.Hint="Mật Khẩu"
+                    Text="{Binding user.Password}"
+                     Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="0,230,0,0"
+/>
+
+
+
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+
+                    <RowDefinition Height="186"></RowDefinition>
+
+                </Grid.RowDefinitions>
+
+
+
+                <Grid Grid.Row="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Orientation="Horizontal" Grid.Row="0">
+                        <ComboBox Width="150"
+                                  materialDesign:HintAssist.Hint="Giới tính"
+                                  VerticalAlignment="Center"
+                                  Height="42" 
+                                  SelectedValuePath="Content"
+                                  SelectedValue = "{Binding selectedSex}">
+                            <ComboBoxItem
+                                        Content="Nam" />
+                            <ComboBoxItem
+                                        Content="Nữ" />
+                        </ComboBox>
+                        <ComboBox Margin="20, 0, 0,0" Width="150"
+                                  materialDesign:HintAssist.Hint="Chức vụ" 
+                                  Height="42"
+                                  ItemsSource="{Binding roles}"
+                                  DisplayMemberPath="RoleName"
+                                  SelectedItem="{Binding selectedRole}">
+
+                        </ComboBox>
+                    </StackPanel>
+                    <Grid Grid.Row="1">
+                        <TextBox
+                            Margin="0,0,30,0"
+                            VerticalAlignment="Top"
+                            materialDesign:HintAssist.Hint="Địa chỉ"
+                            Text="{Binding user.Address}"
+                            Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+/>
+                    </Grid>
+
+
+                </Grid>
+
+                <Grid Grid.Row="1" VerticalAlignment="Bottom">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="140"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+
+                    </Grid.RowDefinitions>
+                    <StackPanel Orientation="Horizontal" Grid.Row="0" VerticalAlignment="Top">
+                        
+                        <Button Content="Tải ảnh lên" 
+                                Padding="0"
+                                Style="{StaticResource MaterialDesignRaisedButton}" 
+                                Width="120" 
+                                HorizontalAlignment="Left"
+                                Command="{Binding LoadImageCom}"
+/>
+                        <Image Source="{Binding imgSource}" Margin="50,0,0,0" Width="140" Height="140">
+                            
+                        </Image>
+                        
+
+                    </StackPanel>
+                    <Grid Grid.Row="1" >
+                        <Button Content="Add" 
+                               Style="{StaticResource MaterialDesignRaisedButton}" 
+                               Width="80" 
+                               Command="{Binding SaveUserCom}" Margin="60, 0, 0 ,0"
+                        />
+                        <Button Content="Cancel" 
+                                Style="{StaticResource MaterialDesignFlatButton}"
+                                Width="80"
+                                Command="{Binding CloseAddUserCom}"
+                                HorizontalAlignment="Right"
+                                Background="#C7C7C7" />
+
+                    </Grid>
+                </Grid>
+
+
+            </Grid>
+
+
+
+        </Grid>
+
+
+
+    </Grid>
+</Window>

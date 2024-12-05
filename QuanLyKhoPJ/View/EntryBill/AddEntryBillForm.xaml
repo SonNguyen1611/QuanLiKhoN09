@@ -1,0 +1,224 @@
+﻿<Window x:Class="QuanLyKhoPJ.View.AddEntryBillForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Height="600" Width="1020"
+        DataContext="{StaticResource EntryBillVM}"
+        Icon="pack://application:,,,/Icon/forest.png"
+        Title="Fstock" FontFamily="Times New Roman" 
+        >
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <TextBlock Text="Thêm Phiếu Nhập" FontSize="24" HorizontalAlignment="Center" FontWeight="Bold" Margin="0,0,0,20" Grid.ColumnSpan="2" />
+
+        </Grid>
+        <Grid Grid.Row="1">
+            <Separator></Separator>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="800"></ColumnDefinition>
+                <ColumnDefinition Width="200"></ColumnDefinition>
+
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" >
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition ></ColumnDefinition>
+
+                    </Grid.ColumnDefinitions>
+                    <Border Grid.Column="0" BorderBrush="Gray" BorderThickness="1" CornerRadius="5" Margin="5">
+                        <Grid >
+                            <ListView ItemsSource="{Binding products, UpdateSourceTrigger=PropertyChanged, Mode = TwoWay}" SelectedItem="{Binding selectedProductAddBill}" Width="auto">
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn Header="Mã Sản Phẩm" DisplayMemberBinding="{Binding ProductId}"></GridViewColumn>
+                                        <GridViewColumn Header="Tên" DisplayMemberBinding="{Binding ProductName}"></GridViewColumn>
+                                        <GridViewColumn Header="Số Lượng" DisplayMemberBinding="{Binding Quantity}"></GridViewColumn>
+                                        
+                                    </GridView>
+                                </ListView.View>
+                            </ListView>
+
+                        </Grid>
+                    </Border>
+                    
+                    <Border Grid.Column="1" BorderBrush="Gray" BorderThickness="1" CornerRadius="5" Margin="5">
+                        <Grid >
+                            <Grid.RowDefinitions>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+
+                            </Grid.RowDefinitions>
+
+                            <Grid Grid.Row="0">
+
+                                <TextBox
+                                    VerticalAlignment="Center"
+                                    materialDesign:HintAssist.Hint="Mã sản phẩm"
+                                    Width="110"
+                                    IsEnabled="False"
+                                    Text="{Binding selectedProductAddBill.ProductId,  UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                                    Margin="5,0,0,0"
+                                    HorizontalAlignment="Left"
+                                    Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                                <TextBox
+                                    VerticalAlignment="Center"
+                                    materialDesign:HintAssist.Hint="Tên sản phẩm"
+                                    Margin="0,0,5,0"
+                                    Width="110"
+                                    IsEnabled="False"
+                                    Text="{Binding selectedProductAddBill.ProductName,  UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                                    HorizontalAlignment="Right"
+                                    Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                                <TextBox
+                                    VerticalAlignment="Center"
+                                    materialDesign:HintAssist.Hint="Gía nhập"
+                                    Margin="0,0,5,0"
+                                    Width="110"
+                                    IsEnabled="False"
+                                    Text="{Binding selectedProductAddBill.EnTryPrice, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                                    HorizontalAlignment="Center"
+                                    Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+
+
+                            </Grid>
+                            <Grid Grid.Row="1">
+
+                                <TextBox
+                                    VerticalAlignment="Center"
+                                    materialDesign:HintAssist.Hint="Số lượng nhập"
+                                    Width="110"
+                                    Text="{Binding quantityAdd}"
+                                    Margin="0,0,5,0"
+                                    HorizontalAlignment="Right"
+                                    Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                                
+
+
+                            </Grid>
+
+
+                            <Grid Grid.Row="2" >
+                                <Button
+            Width="120"
+            HorizontalAlignment="Right"
+            Margin="0,0,5,0"
+            Content="Add"
+            Command="{Binding AddProductIntoListBillCom}"
+            IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+            Style="{StaticResource MaterialDesignRaisedButton}"
+            ToolTip="Resource name: MaterialDesignRaisedSecondaryButton"/>
+                                <Button
+            Width="120"
+            Content="Delete"
+            Margin="0,0,50,0"
+            Command="{Binding deleteProductOuttoListBillCom}"
+            IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+            Style="{StaticResource MaterialDesignRaisedButton}"
+            ToolTip="Resource name: MaterialDesignRaisedButton"/>
+
+                            </Grid>
+                        </Grid>
+                    </Border>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Border Grid.Column="0" BorderBrush="Gray" BorderThickness="1" CornerRadius="5" Margin="5">
+                        <Grid >
+                            <ListView ItemsSource="{Binding listProductsInBill, UpdateSourceTrigger=PropertyChanged, Mode = TwoWay}" SelectedItem="{Binding selectedItemInBill}" Width="auto">
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn Header="Mã Sản Phẩm" Width="auto" DisplayMemberBinding="{Binding ProductId}"></GridViewColumn>
+                                        <GridViewColumn Header="Tên" Width="auto" DisplayMemberBinding="{Binding ProductName}"></GridViewColumn>
+                                        <GridViewColumn Header="Thể loại" Width="auto" DisplayMemberBinding="{Binding Category.CategoryName }"></GridViewColumn>
+                                        <GridViewColumn Header="Nhà cung cấp" Width="auto" DisplayMemberBinding="{Binding Suplier.SuplierName}"></GridViewColumn>
+                                        <GridViewColumn Header="Số lượng nhập" Width="auto" DisplayMemberBinding="{Binding QuantityAddInBill }"></GridViewColumn>
+
+                                    </GridView>
+                                </ListView.View>
+                            </ListView>
+
+                        </Grid>
+                    </Border>
+
+                </Grid>
+            </Grid>
+            <Border Grid.Column="1" BorderBrush="Gray" BorderThickness="1" CornerRadius="5" Margin="5">
+                <Grid >
+                    <TextBox
+                        VerticalAlignment="Top"
+                        materialDesign:HintAssist.Hint="Mã Phiếu Nhập"
+                        Margin="5"
+                        IsEnabled="False"
+                        Text="{Binding entryBill.EntryBillId}"
+                        Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                    <ComboBox
+                        materialDesign:HintAssist.Hint="Nhân viên tạo"
+                        VerticalAlignment="Top"
+                        ItemsSource="{Binding users}"
+                        DisplayMemberPath="UserName"
+                        SelectedItem="{Binding selectedUser}"
+                        Margin="5, 53,5,5">
+                        
+                    </ComboBox>
+                    <DatePicker
+                        Margin="5, 90,5,5"
+                        Height="40"
+                        
+                        VerticalAlignment="Top"
+                        HorizontalAlignment="Stretch"
+                        materialDesign:HintAssist.Hint="Ngày tạo"
+                        materialDesign:TextFieldAssist.HasClearButton="True"
+                        Style="{StaticResource MaterialDesignFloatingHintDatePicker}"/>
+                    <TextBox
+    
+                        VerticalAlignment="Top"
+                        Margin="5,138,5,5"
+                        Text="{Binding countProductInList}"
+                        materialDesign:HintAssist.Hint="Tổng số sản phẩm"
+                        Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                    <StackPanel Margin="5,0,5,50" VerticalAlignment="Bottom" Orientation="Horizontal">
+                        <Label>Tổng Tiền:</Label>
+                        <TextBlock VerticalAlignment="Center" Text="{Binding totalPrice}">
+                            
+
+                        </TextBlock>
+                    </StackPanel>
+                    <Button Style="{StaticResource MaterialDesignRaisedButton}"
+                            Margin="10"
+                            VerticalAlignment="Bottom"
+                            HorizontalAlignment="Stretch"
+                            Command="{Binding AddEntryBillCom}"
+                            Content="Tạo Phiếu Nhập"
+                            ToolTip="Resource name: MaterialDesignRaisedButton"></Button>
+                    
+                    
+                    
+                    
+                    
+                </Grid>
+            </Border>
+            
+
+
+        </Grid>
+    </Grid>
+   
+</Window>

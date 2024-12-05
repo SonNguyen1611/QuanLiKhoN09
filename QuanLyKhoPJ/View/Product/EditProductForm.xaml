@@ -1,0 +1,175 @@
+﻿<Window x:Class="QuanLyKhoPJ.View.EditProductForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"       
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuanLyKhoPJ.View"
+        mc:Ignorable="d"
+        DataContext="{StaticResource ProductVM}"
+        Icon="pack://application:,,,/Icon/forest.png"
+        Title="Fstock" FontFamily="Times New Roman" Height="450" Width="800">
+
+
+    <Grid Margin="25">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <!-- Define two columns with specific width ratios -->
+        <Grid Grid.Row="0">
+            <TextBlock Text="Chỉnh Sửa Sản Phẩm" FontSize="24" HorizontalAlignment="Center" FontWeight="Bold" Margin="0,0,0,20" Grid.ColumnSpan="2" />
+
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300"></ColumnDefinition>
+                <ColumnDefinition Width="300"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Margin="20">
+                <TextBox
+                    VerticalAlignment="Top"
+                    IsEnabled="False"
+                    materialDesign:HintAssist.Hint="Mã Sản Phẩm"
+                    Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                    Text="{Binding product.ProductId}"
+                />
+                <TextBox
+                    VerticalAlignment="Top"
+                    materialDesign:HintAssist.Hint="Tên Sản Phẩm"
+                    Text="{Binding product.ProductName}"
+                    Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="0,53,0,0"/>
+                <TextBox
+                     VerticalAlignment="Top"
+                     materialDesign:HintAssist.Hint="Số lượng"
+                    Text="{Binding product.Quantity}"
+                    Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="0,113,0,0"/>
+                <TextBox
+                    VerticalAlignment="Top"
+                    materialDesign:HintAssist.Hint="Gía Nhập"
+                    Text="{Binding product.EnTryPrice}"
+                    Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="0,175,0,0"/>
+                <TextBox
+                     VerticalAlignment="Top"
+                     materialDesign:HintAssist.Hint="Gía Xuất"
+                    Text="{Binding product.ExportPrice}"
+                     Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="0,230,0,0"
+/>
+
+
+
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+
+                    <RowDefinition Height="186"></RowDefinition>
+
+                </Grid.RowDefinitions>
+
+
+
+                <Grid Grid.Row="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Orientation="Horizontal" Grid.Row="0">
+                        <ComboBox Width="150"
+                                  materialDesign:HintAssist.Hint="Nhà cung cấp"
+                                  VerticalAlignment="Center"
+                                  Height="42" 
+                                  ItemsSource="{Binding supliers}"
+                                  DisplayMemberPath="SuplierName"
+                                  SelectedItem="{Binding selectedSuplier}">
+                        </ComboBox>
+                        <ComboBox Margin="20, 0, 0,0" Width="150"
+                                  materialDesign:HintAssist.Hint="Thể Loại" 
+                                  Height="42"
+                                  ItemsSource="{Binding categories}"
+                                  DisplayMemberPath="CategoryName"
+                                  SelectedItem="{Binding selectedCategory}">
+
+                        </ComboBox>
+                    </StackPanel>
+                    <Grid Grid.Row="1">
+                        <DatePicker VerticalAlignment="Top" HorizontalAlignment="Left"
+                            Width="120" Height="40"
+                            SelectedDate="{Binding product.UpdateDay}"
+                            materialDesign:HintAssist.Hint="Ngày Cập Nhật"
+                            materialDesign:TextFieldAssist.HasClearButton="True"
+                            Style="{StaticResource MaterialDesignFloatingHintDatePicker}"/>
+                    </Grid>
+
+
+                </Grid>
+
+                <Grid Grid.Row="1" VerticalAlignment="Bottom">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="140"></RowDefinition>
+                        <RowDefinition Height="40"></RowDefinition>
+
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" VerticalAlignment="Top">
+                        <TextBox TextWrapping="Wrap" 
+                                 AcceptsReturn="True" 
+                                 VerticalContentAlignment="Top" 
+                                 Height="140"                              materialDesign:HintAssist.Hint="Mô tả sản phẩm...."
+                                 Opacity="0.6"
+                                 BorderBrush="Black"
+                                 BorderThickness="1"
+                                 Padding="10"
+                                 Text="{Binding product.ProductDescription}"
+                                 >
+
+                        </TextBox>
+
+                    </Grid>
+                    <Grid Grid.Row="1" >
+                        <Button Content="Edit" 
+                               Style="{StaticResource MaterialDesignRaisedButton}" 
+                               Width="80" 
+                               Command="{Binding EditProductCom}" Margin="60, 0, 0 ,0"
+                        />
+                        <Button Content="Cancel" 
+                                Style="{StaticResource MaterialDesignFlatButton}"
+                                Width="80"
+                                Command="{Binding CloseWindowEditCom }"
+                                HorizontalAlignment="Right"
+                                Background="#C7C7C7" />
+
+                    </Grid>
+                </Grid>
+
+
+            </Grid>
+            <Grid Grid.Column="2">
+                <StackPanel  Grid.Row="0" VerticalAlignment="Top">
+
+                    <Button Content="Tải ảnh lên" 
+                                Padding="0"
+                                Style="{StaticResource MaterialDesignRaisedButton}" 
+                                Width="100" 
+                                HorizontalAlignment="Center"
+                                Command="{Binding LoadImageCom}"
+/>
+                    <Image Source="{Binding imgSource}" Margin="0,10,0,0"  Width="140" Height="140">
+
+                    </Image>
+
+
+                </StackPanel>
+            </Grid>
+
+
+
+        </Grid>
+
+
+
+    </Grid>
+</Window>

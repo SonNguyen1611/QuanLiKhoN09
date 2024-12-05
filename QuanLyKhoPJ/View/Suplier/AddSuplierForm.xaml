@@ -1,0 +1,54 @@
+﻿<Window x:Class="QuanLyKhoPJ.View.AddSuplierForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninx.net/winfx/xaml/themes"
+        Height="475" Width="473"
+        DataContext="{StaticResource SuplierVM}"
+        Icon="pack://application:,,,/Icon/forest.png"
+        Title="Fstock" FontFamily="Times New Roman" >
+    
+
+    <Grid Margin="25">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="235*"/>
+           
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.ColumnSpan="3">
+            <TextBlock Text="Add Supplier" FontSize="24" HorizontalAlignment="Center" FontWeight="Bold" Margin="0,0,0,20" />
+
+            <Label Content="Supplier Name:" />
+            <TextBox Name="txtSupplierName" Margin="0,0,0,10" 
+                     Text="{Binding suplier.SuplierName}"
+                     Style="{StaticResource MaterialDesignTextBox}" ></TextBox>
+
+            <Label Content="Supplier Address:" />
+            <TextBox Name="txtSupplierAddress" Margin="0,0,0,10" 
+                    Text="{Binding suplier.SuplierAddress}"
+                     Style="{StaticResource MaterialDesignTextBox}"
+                     
+                     ></TextBox>
+            <Label Content="Supplier Phone Number:" />
+            <TextBox Name="txtSupplierPhoneNumber" Margin="0,0,0,10"
+                     Text="{Binding suplier.SuplierPhoneNumber}"
+                     Style="{StaticResource MaterialDesignTextBox}" ></TextBox>
+            <Label Content="Supplier Email:" />
+            <TextBox Name="txtSupplierEmail" Margin="0,0,0,10" 
+                     Text="{Binding suplier.SuplierEmail}"
+                     Style="{StaticResource MaterialDesignTextBox}" />
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
+                <Button Content="Add" 
+                        Style="{StaticResource MaterialDesignRaisedButton}" 
+                        Width="80" 
+                        Margin="0,0,10,0" Command="{Binding CAddSuplier}"
+                 />
+                <Button Content="Cancel" 
+                        Style="{StaticResource MaterialDesignFlatButton}" 
+                        Width="80"
+                        Command="{Binding CloseWindowAddSuplier}"
+                        Background="#C7C7C7"
+                        
+                      />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,146 @@
+﻿<Window x:Class="QuanLyKhoPJ.View.PrintEntryBillForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuanLyKhoPJ.View"
+       
+        mc:Ignorable="d"
+        DataContext="{StaticResource EntryBillVM}"
+        Icon="pack://application:,,,/Icon/forest.png"
+        Title="Fstock" FontFamily="Times New Roman" 
+        Height="550" Width="800"  >
+
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Border x:Name="print" Grid.Row="0" BorderBrush="Gray" BorderThickness="1" CornerRadius="5" Padding="10" Margin="20,20,20,10">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Image Height="70" Source="C:\Users\Son\source\repos\QuanLyKhoPJ\QuanLyKhoPJ\Icon\forest.png" />
+                        <TextBlock VerticalAlignment="Center" FontFamily="Mistral" FontSize="28" Foreground="#673AB7" Margin="160,0,0,0">FStock</TextBlock>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBlock VerticalAlignment="Center"  HorizontalAlignment="Center" FontSize="25">Phiếu Nhập Kho</TextBlock>
+
+                    </Grid>
+                    <Grid Grid.Column="2">
+                        <StackPanel VerticalAlignment="Center">
+                            <StackPanel Margin="0,0,0,10" Orientation="Horizontal">
+                                <TextBlock FontStyle="Italic"> Mã phiếu:</TextBlock>
+                                <TextBlock Text="{Binding entryBill.EntryBillId}"  ></TextBlock>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontStyle="Italic"> Ngày tạo phiếu:</TextBlock>
+                                <TextBlock Text="{Binding entryBill.TransactionDate}" ></TextBlock>
+                            </StackPanel>
+
+                        </StackPanel>
+
+
+                    </Grid>
+
+                </Grid>
+
+                <Grid Grid.Row="1">
+                    <Separator VerticalAlignment="Top"></Separator>
+                    <StackPanel Margin="5,0,0,0" VerticalAlignment="Center">
+                        <TextBlock>Kho hàng: Fstock</TextBlock>
+                        <TextBlock>Địa chỉ: 18 P. Viên, Đông Ngạc, Bắc Từ Liêm, Hà Nội 100000</TextBlock>
+                        <TextBlock>Số điện thoại:099998888</TextBlock>
+                        <TextBlock>Mã số thuế: 0 1 2 3 4 5 6</TextBlock>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock>Người tạo:</TextBlock>
+                            <TextBlock Text="{Binding entryBill.User.UserName}" ></TextBlock>
+                        </StackPanel>
+
+                    </StackPanel>
+                    <Separator VerticalAlignment="Bottom"></Separator>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <ListView BorderBrush="Black" BorderThickness="1" ItemsSource="{Binding listProductsInBill, UpdateSourceTrigger=PropertyChanged, Mode = TwoWay}" Width="auto">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Mã Sản Phẩm" Width="auto" DisplayMemberBinding="{Binding ProductId}"></GridViewColumn>
+                                <GridViewColumn Header="Tên" Width="auto" DisplayMemberBinding="{Binding ProductName}"></GridViewColumn>
+                                <GridViewColumn Header="Thể loại" Width="auto" DisplayMemberBinding="{Binding Category.CategoryName }"></GridViewColumn>
+                                <GridViewColumn Header="Nhà cung cấp" Width="auto" DisplayMemberBinding="{Binding Suplier.SuplierName}"></GridViewColumn>
+                                <GridViewColumn Header="Số lượng nhập" Width="auto" DisplayMemberBinding="{Binding QuantityAddInBill }"></GridViewColumn>
+
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </Grid>
+
+                <Grid Grid.Row="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="500"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <StackPanel >
+                            <StackPanel Orientation="Horizontal">
+                                <Label FontSize="17">Tổng tiền:</Label>
+                                <TextBlock VerticalAlignment="Center" FontSize="15" Text="{Binding totalPrice}">
+
+                                </TextBlock>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <Label FontSize="17">Tổng số lượng sản phẩm:</Label>
+                                <TextBlock VerticalAlignment="Center" FontSize="15" Text="{Binding countProductInList}">
+
+
+                                </TextBlock>
+                            </StackPanel>
+                        </StackPanel>
+                        <StackPanel VerticalAlignment="top" HorizontalAlignment="Right">
+                            <Label HorizontalAlignment="Center" FontWeight="Bold">Người tạo</Label>
+                            <Label FontStyle="Italic">(Ký, ghi rõ họ tên)</Label>
+
+
+                        </StackPanel>
+
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <StackPanel Margin="0,0,30,0" VerticalAlignment="top" HorizontalAlignment="Right">
+                            <Label HorizontalAlignment="Center" FontWeight="Bold">Người cung cấp</Label>
+                            <Label FontStyle="Italic">(Ký, ghi rõ họ tên)</Label>
+
+
+                        </StackPanel>
+                    </Grid>
+
+                </Grid>
+
+
+            </Grid>
+        </Border>
+        <Grid Grid.Row="1">
+            <Button Width="60" HorizontalAlignment="Right" Padding="0" Margin="0,0,20,0" Click="Button_Click">
+                <materialDesign:PackIcon Width="30" Height="20"  Kind="Printer"/>
+            </Button>
+        </Grid>
+    </Grid>
+
+
+
+</Window>

@@ -1,0 +1,475 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\viewmodel\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\viewmodel\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\viewmodel\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\view\\manage\\adminhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\view\\manage\\adminhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\view\\changepasswordview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\view\\changepasswordview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\view\\changepasswordview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\view\\changepasswordview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\view\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\view\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\view\\category\\addcategoryform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\view\\category\\addcategoryform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\view\\suplier\\addsuplierform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\view\\suplier\\addsuplierform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\view\\manage\\adminhome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\view\\manage\\adminhome.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\viewmodel\\supliermainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\viewmodel\\supliermainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\viewmodel\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\viewmodel\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\model\\exportbillproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\model\\exportbillproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\model\\entrybill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\model\\entrybill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\view\\suplier\\editsuplierform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\view\\suplier\\editsuplierform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\view\\product\\editproductform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\view\\product\\editproductform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\view\\manage\\adduser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\view\\manage\\adduser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\view\\category\\editcategoryform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\view\\category\\editcategoryform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\quanlykhopj.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\quanlykhopj.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\migrations\\20241203170145_v11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\migrations\\20241203170145_v11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\viewmodel\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\viewmodel\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Son\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|c:\\users\\son\\source\\repos\\quanlykhopj\\quanlykhopj\\view\\suplier\\addsuplierform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C1DC4BC-3431-4320-8983-2046AD1EBAD3}|QuanLyKhoPJ\\QuanLyKhoPJ.csproj|solutionrelative:quanlykhopj\\view\\suplier\\addsuplierform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\obj\\Debug\\net8.0-windows\\View\\EditSuplierForm.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLyKhoPJ\\obj\\Debug\\net8.0-windows\\View\\EditSuplierForm.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\MainWindow.xaml",
+              "RelativeToolTip": "QuanLyKhoPJ\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-03T15:19:02.87Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\ViewModel\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\ViewModel\\UserViewModel.cs",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\ViewModel\\UserViewModel.cs",
+              "RelativeToolTip": "QuanLyKhoPJ\\ViewModel\\UserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:15:12.361Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\ViewModel\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\ViewModel\\ProductViewModel.cs",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\ViewModel\\ProductViewModel.cs",
+              "RelativeToolTip": "QuanLyKhoPJ\\ViewModel\\ProductViewModel.cs",
+              "ViewState": "AgIAABEBAAAAAAAAAAAjwFQBAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:11:57.668Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChangePasswordView.xaml",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\View\\ChangePasswordView.xaml",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\View\\ChangePasswordView.xaml",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\View\\ChangePasswordView.xaml",
+              "RelativeToolTip": "QuanLyKhoPJ\\View\\ChangePasswordView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-05T15:21:28.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminHome.xaml",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\View\\Manage\\AdminHome.xaml",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\View\\Manage\\AdminHome.xaml",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\View\\Manage\\AdminHome.xaml",
+              "RelativeToolTip": "QuanLyKhoPJ\\View\\Manage\\AdminHome.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-05T15:19:18.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\App.xaml",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\App.xaml",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\App.xaml",
+              "RelativeToolTip": "QuanLyKhoPJ\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-05T15:30:06.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\MainWindow.xaml.cs",
+              "RelativeToolTip": "QuanLyKhoPJ\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBoAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:38:41.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\App.xaml.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\App.xaml.cs",
+              "RelativeToolTip": "QuanLyKhoPJ\\App.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T07:35:04.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\View\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\View\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\View\\LoginWindow.xaml",
+              "RelativeToolTip": "QuanLyKhoPJ\\View\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-05T15:23:16.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChangePasswordView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\View\\ChangePasswordView.xaml.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\View\\ChangePasswordView.xaml.cs",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\View\\ChangePasswordView.xaml.cs",
+              "RelativeToolTip": "QuanLyKhoPJ\\View\\ChangePasswordView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T15:23:20.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddSuplierForm.xaml",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\View\\Suplier\\AddSuplierForm.xaml",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\View\\Suplier\\AddSuplierForm.xaml",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\View\\Suplier\\AddSuplierForm.xaml",
+              "RelativeToolTip": "QuanLyKhoPJ\\View\\Suplier\\AddSuplierForm.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-05T14:31:18.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminHome.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\View\\Manage\\AdminHome.xaml.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\View\\Manage\\AdminHome.xaml.cs",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\View\\Manage\\AdminHome.xaml.cs",
+              "RelativeToolTip": "QuanLyKhoPJ\\View\\Manage\\AdminHome.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwCIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:39:53.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\Model\\User.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\Model\\User.cs",
+              "RelativeToolTip": "QuanLyKhoPJ\\Model\\User.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:09:44.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "QuanLyKhoPJ.csproj",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\QuanLyKhoPJ.csproj",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\QuanLyKhoPJ.csproj",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\QuanLyKhoPJ.csproj",
+              "RelativeToolTip": "QuanLyKhoPJ\\QuanLyKhoPJ.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-04T04:10:35.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EditProductForm.xaml",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\View\\Product\\EditProductForm.xaml",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\View\\Product\\EditProductForm.xaml",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\View\\Product\\EditProductForm.xaml",
+              "RelativeToolTip": "QuanLyKhoPJ\\View\\Product\\EditProductForm.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-04T03:08:24.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddUser.xaml",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\View\\Manage\\AddUser.xaml",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\View\\Manage\\AddUser.xaml",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\View\\Manage\\AddUser.xaml",
+              "RelativeToolTip": "QuanLyKhoPJ\\View\\Manage\\AddUser.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-03T17:06:41.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20241203170145_v11.cs",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\Migrations\\20241203170145_v11.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\Migrations\\20241203170145_v11.cs",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\Migrations\\20241203170145_v11.cs",
+              "RelativeToolTip": "QuanLyKhoPJ\\Migrations\\20241203170145_v11.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T17:01:46.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ExportBillProduct.cs",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\Model\\ExportBillProduct.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\Model\\ExportBillProduct.cs",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\Model\\ExportBillProduct.cs",
+              "RelativeToolTip": "QuanLyKhoPJ\\Model\\ExportBillProduct.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T17:00:35.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SuplierMainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\ViewModel\\SuplierMainViewModel.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\ViewModel\\SuplierMainViewModel.cs",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\ViewModel\\SuplierMainViewModel.cs",
+              "RelativeToolTip": "QuanLyKhoPJ\\ViewModel\\SuplierMainViewModel.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAowLkAAACMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T15:17:50.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\ViewModel\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\ViewModel\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\ViewModel\\HomeViewModel.cs",
+              "RelativeToolTip": "QuanLyKhoPJ\\ViewModel\\HomeViewModel.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAiwGgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:35:53.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\Model\\Category.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\Model\\Category.cs",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\Model\\Category.cs",
+              "RelativeToolTip": "QuanLyKhoPJ\\Model\\Category.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T03:00:04.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CategoryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\ViewModel\\CategoryViewModel.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\ViewModel\\CategoryViewModel.cs",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\ViewModel\\CategoryViewModel.cs",
+              "RelativeToolTip": "QuanLyKhoPJ\\ViewModel\\CategoryViewModel.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAIwIUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T06:52:15.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EditCategoryForm.xaml",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\View\\Category\\EditCategoryForm.xaml",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\View\\Category\\EditCategoryForm.xaml",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\View\\Category\\EditCategoryForm.xaml",
+              "RelativeToolTip": "QuanLyKhoPJ\\View\\Category\\EditCategoryForm.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-03T15:59:25.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddCategoryForm.xaml",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\View\\Category\\AddCategoryForm.xaml",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\View\\Category\\AddCategoryForm.xaml",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\View\\Category\\AddCategoryForm.xaml",
+              "RelativeToolTip": "QuanLyKhoPJ\\View\\Category\\AddCategoryForm.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-03T15:48:45.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ResourcePart.cs",
+              "DocumentMoniker": "C:\\Users\\Son\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
+              "ToolTip": "C:\\Users\\Son\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAUwCcAAAAEAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T12:54:39.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EntryBill.cs",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\Model\\EntryBill.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\Model\\EntryBill.cs",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\Model\\EntryBill.cs",
+              "RelativeToolTip": "QuanLyKhoPJ\\Model\\EntryBill.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBgAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T08:07:55.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EditSuplierForm.g.cs",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\obj\\Debug\\net8.0-windows\\View\\EditSuplierForm.g.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\obj\\Debug\\net8.0-windows\\View\\EditSuplierForm.g.cs",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\obj\\Debug\\net8.0-windows\\View\\EditSuplierForm.g.cs",
+              "RelativeToolTip": "QuanLyKhoPJ\\obj\\Debug\\net8.0-windows\\View\\EditSuplierForm.g.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:18:15.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EditSuplierForm.xaml",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\View\\Suplier\\EditSuplierForm.xaml",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\View\\Suplier\\EditSuplierForm.xaml",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\View\\Suplier\\EditSuplierForm.xaml",
+              "RelativeToolTip": "QuanLyKhoPJ\\View\\Suplier\\EditSuplierForm.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-05T14:08:12.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AddSuplierForm.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\View\\Suplier\\AddSuplierForm.xaml.cs",
+              "RelativeDocumentMoniker": "QuanLyKhoPJ\\View\\Suplier\\AddSuplierForm.xaml.cs",
+              "ToolTip": "C:\\Users\\Son\\source\\repos\\QuanLyKhoPJ\\QuanLyKhoPJ\\View\\Suplier\\AddSuplierForm.xaml.cs",
+              "RelativeToolTip": "QuanLyKhoPJ\\View\\Suplier\\AddSuplierForm.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAEwBcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T08:04:27.024Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
